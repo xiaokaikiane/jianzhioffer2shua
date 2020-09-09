@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class JZ27 {
+public class JZ27 {//字符串的排列
     public ArrayList<String> Permutation(String str) {
         ArrayList<String> list=new ArrayList<>();
         if(str.length()==0||str==null){
